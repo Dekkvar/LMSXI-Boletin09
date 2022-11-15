@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML formulario</title>
+  </head>
+  <body>
+    <h1>Formulario HTML</h1>
+    <form action="http://moodle.danielcastelao.org/daw/action_page.php" method="get" style="font-family: arial;">
+      <div>
+        <label for="nif">NIF:</label>
+        <input type="text" name="nif">
+      </div>
+      <br>
+      <div>
+        <label for="fname">Nombre:</label>
+        <input type="text" name="fname">
+      </div>
+      <br>
+      <div>
+        <label>Apellidos:</label>
+        <input type="text">
+      </div>
+      <br>
+      <div>
+        <legend>Edad:</legend>
+        <div>
+          <input type="radio" name="young" value="young">
+          <label for="young">15-19</label>
+        </div>
+        <div>
+          <input type="radio" name="middle" value="middle">
+          <label for="middle">20-29</label>
+        </div>
+        <div>
+          <input type="radio" name="old" value="old">
+          <label for="old">30-40</label>
+        </div>
+      </div>
+      <br>
+      <div>
+        <label>Estado civil:</label>
+        <div>
+          <select id="maritalStatus" size="4" style="width: 100px;">
+            <option value="single">Soltero</option>
+            <option value="married">Casado</option>
+            <option value="divorced">Divorciado</option>
+          </select>
+        </div>
+      </div>
+      <br>
+      <div>
+        <label for="hobbies">Aficiones:</label>
+        <div>
+          <input type="checkbox" name="cine" value="cine">
+          <label for="cine">Cine</label>
+          <br>
+          <input type="checkbox" name="sports" value="sports" checked>
+          <label for="sports">Deportes</label>
+          <br>
+          <input type="checkbox" name="reading" value="reading">
+          <label for="reading">Lectura</label>
+          <br>
+          <input type="checkbox" name="walk" value="walk">
+          <label for="walk">Senderismo</label>
+        </div>
+      </div>
+      <br>
+      <div>
+        <label for="comments">Comentarios:</label>
+        <br>
+        <textarea name="comments" placeholder="Escribe aquí tus comentarios" cols="40" rows="10"></textarea>
+      </div>
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
