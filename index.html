@@ -16,55 +16,69 @@
       <br>
       <div>
         <label for="fname">Nombre:</label>
-        <input type="text" name="fname">
+        <input type="text" name="firstName">
       </div>
       <br>
       <div>
         <label>Apellidos:</label>
-        <input type="text" name="lname">
+        <input type="text" name="lastName">
       </div>
       <br>
       <div>
-        <legend>Edad:</legend>
+        <label>Edad:</label>
         <div>
-          <input type="radio" name="young" value="young">
-          <label for="young">15-19</label>
+          <label>
+            <input type="radio" name="age" value="15-19">
+            15-19
+          </label>
         </div>
         <div>
-          <input type="radio" name="middle" value="middle">
-          <label for="middle">20-29</label>
+          <label>
+            <input type="radio" name="age" value="20-29">
+            20-29
+          </label>
         </div>
         <div>
-          <input type="radio" name="old" value="old">
-          <label for="old">30-40</label>
+          <label>
+            <input type="radio" name="age" value="30-40">
+            30-40
+          </label>
         </div>
       </div>
       <br>
       <div>
         <label>Estado civil:</label>
         <div>
-          <select id="maritalStatus" size="4" style="width: 100px;">
-            <option value="single">Soltero</option>
-            <option value="married">Casado</option>
-            <option value="divorced">Divorciado</option>
+          <select name="maritalStatus" size="4" style="width: 100px;">
+            <option value="soltero">Soltero</option>
+            <option value="casado">Casado</option>
+            <option value="divorciado">Divorciado</option>
           </select>
         </div>
       </div>
       <br>
       <div>
-        <label for="hobbies">Aficiones:</label>
+        <label>Aficiones:</label>
         <div>
-          <input type="checkbox" name="cine" value="cine">
-          <label for="cine">Cine</label>
+          <label>
+            <input type="checkbox" name="hobbies" value="cine">
+            Cine
+          </label>
           <br>
-          <input type="checkbox" name="sports" value="sports" checked>
-          <label for="sports">Deportes</label>
+          <label>
+            <input type="checkbox" name="hobbies" value="deportes" checked>
+            Deportes
+          </label>
           <br>
-          <input type="checkbox" name="reading" value="reading">
-          <label for="reading">Lectura</label>
+          <label>
+            <input type="checkbox" name="hobbies" value="lectura">
+            Lectura
+          </label>
           <br>
-          <input type="checkbox" name="walk" value="walk">
-          <label for="walk">Senderismo</label>
+          <label>
+            <input type="checkbox" name="hobbies" value="senderismo">
+            Senderismo
+          </label>
         </div>
       </div>
       <br>
